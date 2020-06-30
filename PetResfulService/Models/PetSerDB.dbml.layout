@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="PetSerDB">
+  <DataContextMoniker Name="/PetSerDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="9319d2e9-3c44-433a-b14f-cd021a801334" absoluteBounds="5.625, 1.75, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/PetSerDBDataContext/PetSer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="98e4c73f-e8bf-4bc2-a810-b9307a6e71cb" absoluteBounds="5.64, 2.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

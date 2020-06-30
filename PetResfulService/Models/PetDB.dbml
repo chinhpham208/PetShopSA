@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="mngpets" Class="PetDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=den1.mssql7.gear.host;Initial Catalog=mngpets;User ID=mngpets" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="mngpetsConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.PetSale" Member="PetSales">
+    <Type Name="PetSale">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Type" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Gender" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Weight" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Age" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Price" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

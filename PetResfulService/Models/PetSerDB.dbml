@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="mngpets" Class="PetSerDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=den1.mssql7.gear.host;Initial Catalog=mngpets;User ID=mngpets" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="mngpetsConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.PetSer" Member="PetSers">
+    <Type Name="PetSer">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CusName" Type="System.String" DbType="NChar(15)" CanBeNull="true" />
+      <Column Name="PetName" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="PetGender" Type="System.Char" DbType="NChar(1)" CanBeNull="true" />
+      <Column Name="PetAge" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="PetWeight" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="PetType" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="WhatServices" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
